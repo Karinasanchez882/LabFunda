@@ -1,0 +1,3 @@
+
+        
+        if(palabra[i] =='c')
