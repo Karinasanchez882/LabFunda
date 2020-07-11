@@ -7,7 +7,7 @@ int medida=sizeof(palabra);//medir la palabra
 
     for(int i=0; i<medida; i++)
     {
-        if(palabra[i] =='m'){  //arreglo igual a 0
+        if(palabra[i] ='m'){  //arreglo igual a 0
            
         palabra[i]='0'; //comparacion del arreglo con letra ingresada
         } 
