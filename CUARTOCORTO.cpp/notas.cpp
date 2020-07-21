@@ -8,27 +8,34 @@ void notas()
   cout<<"CALCULO DE NOTAS DE ESTUDIANTES "<<endl;
   cout<<"ingrese el numero de estudiantes : " <<endl;
   cin>>n;
-  int arr[n];//ingresa numero de estudiantes 
+  int arr[n];
+  for(i=0;i<n;i++)
+  {
+    cout<<"ingrese el numero de estudiantes"<<endl;
+    cin>>arr[i];
 
-  for(i=0; i<5; i++)
-    {
-        cout<<"introduzca las cinco notas del estudiante  : "<<endl;
-        cin>>arreglo1[ i ];//ingresa datos en el arreglo usuario
-        suma=suma+arreglo1[i];//suma los datos ingresados en el arreglo
-    }
-    promedio=suma/5;//division para sacar promedio de notas ingresadas
-    cout<<"el promedio del alumno es : "<<promedio<<" "<<endl;
-
-    cout<<endl;
-     if(promedio>=6){//condicion para que apruebe el alumno
-      cout<<"el alumno aprobo "<<endl<<endl;
+      for(i=0; i<5; i++)
+     {
+        cout<<"por favor introduzca las cinco notas del estudiantes  : "<<endl;
+        cin>>arreglo1[ i ];
+        suma=suma+arreglo1[i];
       }
-     else//condicion contrario el alumno reprueba
-      {
+     promedio=suma/5;
+      cout<<"el promedio del alumno es : "<<promedio<<" "<<endl;
+
+      cout<<endl;
+      if(promedio>=6){
+       cout<<"el alumno aprobo "<<endl<<endl;
+        }
+       else
+        {
       cout<<"el alumno reprobo "<<endl<<endl;
-      }
+        }
+
+  }
 }
+
 int main()
 {
-notas();//llama a la funcion notas
+  notas();
 }

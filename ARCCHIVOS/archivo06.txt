@@ -1,0 +1,8 @@
+hola
+mi nombre  es karina
+me gusta mucho la informatica
+cd "c:\Users\jacky\Desktop\LabFunda\practica.cpp\" ; if ($?) { g++ arreglo.cpp -o arreglo } ; if ($?) { .\arreglo }
+cd "c:\Users\jacky\Desktop\LabFunda\practica.cpp\" ; if ($?) { g++ arreglo.cpp -o arreglo } ; if ($?) { .\arreglo }
+cd "c:\Users\jacky\Desktop\LabFunda\practica.cpp\" ; if ($?) { g++ arreglo.cpp -o arreglo } ; if ($?) { .\arreglo }
+cd "c:\Users\jacky\Desktop\LabFunda\practica.cpp\" ; if ($?) { g++ arreglo.cpp -o arreglo } ; if ($?) { .\arreglo }
+cd "c:\Users\jacky\Desktop\LabFunda\practica.cpp\" ; if ($?) { g++ arreglo.cpp -o arreglo } ; if ($?) { .\arreglo }

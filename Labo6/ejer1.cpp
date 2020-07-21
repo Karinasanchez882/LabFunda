@@ -4,7 +4,6 @@ using namespace std;
 
 int resultado(int mayor,int menor, int residuo){
 
-
     do
     {
         residuo=mayor%menor;
@@ -16,12 +15,10 @@ int resultado(int mayor,int menor, int residuo){
 
         
 
-        }
+    }
 
         while(residuo!=0);
-
-    
-    
+ 
 }
 
 int main(){
@@ -34,8 +31,7 @@ int main(){
     cin>>mayor;
     cout<<"INGRESE UN NUMERO MENOR: ";
     cin>>menor;
-
-    cout<<"el resultado es: " << resultado(mayor,menor,residuo)<<endl;
+    cout<<"el resultado es : " <<resultado(mayor,menor,residuo);
     cout<<"GRACIAS POR USAR NUESTRO SERVICIO"<<endl;
     cout<<"FELIZ DIA"<<endl;
 

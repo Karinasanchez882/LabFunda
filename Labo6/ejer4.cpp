@@ -30,10 +30,6 @@ int main()
 
     }
 
-    
-
-   
-
     else
     {
 
@@ -44,8 +40,6 @@ int main()
         cout<<"su dia siguiente : "<<dd<<" "<<endl<<endl;
 
        cout<<"SU ANIO NO ES BISIESTO!"<<endl;
-   
-
     }
 
     cout<<"GRACIAS POR USAR NUESTRO SERVICIO"<<endl;
