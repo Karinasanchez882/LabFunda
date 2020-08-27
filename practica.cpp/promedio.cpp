@@ -8,17 +8,11 @@ int main(void)
 {
     float cal[5];
     int alumn=1,n=0;
-    cout<<"ejercicio 3"<<endl;
     cout<<"intrucciones las notas se introduciran en vase 10"<<endl<<endl;
-    cout<<"introduzca el numero de estudiantes"<<endl;
-    cin>>n;
     cout<<endl;
-    for(alumn=1;alumn<=n;alumn++)
-    {
-        cout<<"---ESTUDIANTE---"<<alumn<<"----"<<endl;
-        DefinirArreglo(cal);
-        promedio(cal);
-    }
+
+  DefinirArreglo(cal);
+  promedio(cal);
   return 0;
 
 }
@@ -29,7 +23,7 @@ void DefinirArreglo(float a[])
     cout<<" digite las cinco notas del estudiantes"<<endl;
     for(i=0;i<5;i++)
 
-        cin>>a[i];
+   cin>>a[i];
 }
 
 void promedio(float a[])

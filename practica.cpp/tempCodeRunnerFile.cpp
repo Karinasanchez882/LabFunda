@@ -1,1 +1,1 @@
-promedio(primera,segunda,tercer);
+[]

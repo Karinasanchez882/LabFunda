@@ -1,3 +1,1 @@
-
-        
-        if(palabra[i] =='c')
+\n
